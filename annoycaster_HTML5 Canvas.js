@@ -172,7 +172,7 @@ if (reversed == null) { reversed = false; }
 			character.x = stage.mouseX
 			character.y = stage.mouseY*/
 				//this.ass.text
-				character.x++
+				//character.x++
 				void_control();
 				this.ass.text = KeyPress
 			}
@@ -268,7 +268,7 @@ if (reversed == null) { reversed = false; }
 		}.bind(this));
 		
 		
-		this._left.addEventListener("mousedown", function () {
+		this._left.addEventListener("click", function () {
 			left_press = true
 		});
 		this._right.addEventListener("click", function () {
@@ -276,7 +276,7 @@ if (reversed == null) { reversed = false; }
 		});
 		this._up.addEventListener("click", function () {
 			up_press = true
-			alert("fuchs")
+			//alert("fuchs")
 		});
 		this._down.addEventListener("click", function () {
 			down_press = true
@@ -354,10 +354,10 @@ if (reversed == null) { reversed = false; }
 		this._up.addEventListener("pressup", handleTouchEnd);
 		this._down.addEventListener("pressup", handleTouchEnd);*/
 		
-		document.addEventListener("click", function () {
+		/*document.addEventListener("click", function () {
 			character.x = stage.mouseX
 			character.y = stage.mouseY
-		});
+		});*/
 	}
 
 	// actions tween:
