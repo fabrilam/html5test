@@ -268,17 +268,17 @@ if (reversed == null) { reversed = false; }
 		}.bind(this));
 		
 		
-		this._left.addEventListener("click", function () {
+		this._left.addEventListener("mousedown", function () {
 			left_press = true
 		});
-		this._right.addEventListener("click", function () {
+		this._right.addEventListener("mousedown", function () {
 			right_press = true
 		});
-		this._up.addEventListener("click", function () {
+		this._up.addEventListener("mousedown", function () {
 			up_press = true
 			//alert("fuchs")
 		});
-		this._down.addEventListener("click", function () {
+		this._down.addEventListener("mousedown", function () {
 			down_press = true
 		});
 		
